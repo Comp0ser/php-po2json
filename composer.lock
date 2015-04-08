@@ -1,23 +1,27 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "1d4a77fa3040b9142489089e69c30737",
+    "hash": "ead54cc02fbba4af7dbeca0d2f7e47b6",
     "packages": [
         {
             "name": "sepia/po-parser",
-            "version": "dev-master",
+            "version": "4.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Gapminder/PHP-po-parser.git",
-                "reference": "16d1def1f1a2550d3ee8720d7d63474450c43ab4"
+                "url": "https://github.com/raulferras/PHP-po-parser.git",
+                "reference": "8e5c3d5d6d5a4c6584249d82dc75eb1490cb8470"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Gapminder/PHP-po-parser/zipball/16d1def1f1a2550d3ee8720d7d63474450c43ab4",
-                "reference": "16d1def1f1a2550d3ee8720d7d63474450c43ab4",
+                "url": "https://api.github.com/repos/raulferras/PHP-po-parser/zipball/8e5c3d5d6d5a4c6584249d82dc75eb1490cb8470",
+                "reference": "8e5c3d5d6d5a4c6584249d82dc75eb1490cb8470",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.7.*",
@@ -29,6 +33,7 @@
                     "Sepia": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -39,7 +44,7 @@
                     "role": "developer"
                 }
             ],
-            "description": "PO file parser for PHP.",
+            "description": "Gettext *.PO file parser for PHP.",
             "homepage": "https://github.com/raulferras/PHP-po-parser",
             "keywords": [
                 "gettext",
@@ -47,11 +52,7 @@
                 "i18n",
                 "po"
             ],
-            "support": {
-                "issues": "https://github.com/raulferras/PHP-po-parser/issues",
-                "source": "https://github.com/Gapminder/PHP-po-parser/tree/master"
-            },
-            "time": "2014-03-17 04:07:41"
+            "time": "2015-01-22 11:03:32"
         }
     ],
     "packages-dev": [
@@ -346,12 +347,12 @@
             "version": "v1.0.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fabpot/Goutte.git",
+                "url": "https://github.com/FriendsOfPHP/Goutte.git",
                 "reference": "a30e84e28fbaf14909d2d007249c24cd0ecd425e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Goutte/zipball/a30e84e28fbaf14909d2d007249c24cd0ecd425e",
+                "url": "https://api.github.com/repos/FriendsOfPHP/Goutte/zipball/a30e84e28fbaf14909d2d007249c24cd0ecd425e",
                 "reference": "a30e84e28fbaf14909d2d007249c24cd0ecd425e",
                 "shasum": ""
             },
@@ -387,9 +388,7 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "email": "fabien@symfony.com"
                 }
             ],
             "description": "A simple PHP Web Scraper",
@@ -445,12 +444,12 @@
             "target-dir": "Guzzle/Common",
             "source": {
                 "type": "git",
-                "url": "https://github.com/guzzle/common.git",
+                "url": "https://github.com/Guzzle3/common.git",
                 "reference": "67f6c3fd04bae387d47c2a673fa623ed8f4189bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/common/zipball/67f6c3fd04bae387d47c2a673fa623ed8f4189bb",
+                "url": "https://api.github.com/repos/Guzzle3/common/zipball/67f6c3fd04bae387d47c2a673fa623ed8f4189bb",
                 "reference": "67f6c3fd04bae387d47c2a673fa623ed8f4189bb",
                 "shasum": ""
             },
@@ -481,6 +480,7 @@
                 "event",
                 "exception"
             ],
+            "abandoned": "guzzle/guzzle",
             "time": "2014-01-28 22:29:15"
         },
         {
@@ -489,12 +489,12 @@
             "target-dir": "Guzzle/Http",
             "source": {
                 "type": "git",
-                "url": "https://github.com/guzzle/http.git",
+                "url": "https://github.com/Guzzle3/http.git",
                 "reference": "565fd64be16d91c840f497c5de76f86d54a822d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/http/zipball/565fd64be16d91c840f497c5de76f86d54a822d8",
+                "url": "https://api.github.com/repos/Guzzle3/http/zipball/565fd64be16d91c840f497c5de76f86d54a822d8",
                 "reference": "565fd64be16d91c840f497c5de76f86d54a822d8",
                 "shasum": ""
             },
@@ -538,6 +538,7 @@
                 "http",
                 "http client"
             ],
+            "abandoned": "guzzle/guzzle",
             "time": "2014-01-23 18:23:29"
         },
         {
@@ -546,12 +547,12 @@
             "target-dir": "Guzzle/Parser",
             "source": {
                 "type": "git",
-                "url": "https://github.com/guzzle/parser.git",
+                "url": "https://github.com/Guzzle3/parser.git",
                 "reference": "3f52387052f2e4ef083145a0f73c3654aa14e086"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/parser/zipball/3f52387052f2e4ef083145a0f73c3654aa14e086",
+                "url": "https://api.github.com/repos/Guzzle3/parser/zipball/3f52387052f2e4ef083145a0f73c3654aa14e086",
                 "reference": "3f52387052f2e4ef083145a0f73c3654aa14e086",
                 "shasum": ""
             },
@@ -582,6 +583,7 @@
                 "message",
                 "url"
             ],
+            "abandoned": "guzzle/guzzle",
             "time": "2013-10-24 00:04:09"
         },
         {
@@ -590,12 +592,12 @@
             "target-dir": "Guzzle/Stream",
             "source": {
                 "type": "git",
-                "url": "https://github.com/guzzle/stream.git",
+                "url": "https://github.com/Guzzle3/stream.git",
                 "reference": "fa8af730ca714861c0001cfba64aaecc5f21bb96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/stream/zipball/fa8af730ca714861c0001cfba64aaecc5f21bb96",
+                "url": "https://api.github.com/repos/Guzzle3/stream/zipball/fa8af730ca714861c0001cfba64aaecc5f21bb96",
                 "reference": "fa8af730ca714861c0001cfba64aaecc5f21bb96",
                 "shasum": ""
             },
@@ -635,6 +637,7 @@
                 "component",
                 "stream"
             ],
+            "abandoned": "guzzle/guzzle",
             "time": "2014-01-28 22:14:17"
         },
         {
@@ -1591,17 +1594,13 @@
             "time": "2014-01-07 13:28:54"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "sepia/po-parser": 20
-    },
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.0"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }
